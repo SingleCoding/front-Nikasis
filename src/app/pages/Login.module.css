@@ -1,0 +1,59 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding-inline: 2rem;
+  }
+  
+  .signup-page .signup-anchor {
+    position: absolute;
+    color: #c9c9c9;
+    text-decoration: none;
+    top: 67rem;
+    font-weight: 700;
+  }
+  
+  .signupBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 30%);
+    position: relative;
+    width: 100%;
+    padding-inline: 3rem;
+    padding-block: 10rem;
+  }
+  
+  .signupBox input {
+    margin-block: 1rem;
+  }
+
+.signup-avatar{
+    position: absolute;
+    top: 33rem;
+    z-index: 5;
+}
+
+.signup-logo{
+    width: 12.8rem;
+    margin-block: 5rem;
+}
+
+.signup-icons{
+    position: absolute;
+    margin-top: 18rem;
+}
+
+.signup-btn{
+    position: absolute;
+    top: 61.4rem;
+    font-weight: 700;
+}
+
+.user-info-nav {
+    width: 100%;
+}
+

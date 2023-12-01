@@ -1,0 +1,28 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.item {
+  cursor: pointer;
+  background: var(--clr-bg-dark);
+  color: var(--clr-fg-light);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  transition-property: background-color color;
+  transition-duration: 300ms;
+}
+
+.item svg {
+  width: 5.4rem;
+  height: 5.4rem;
+}
+
+.item.active {
+  background-color: var(--clr-bg-light);
+  color: var(--clr-fg-dark);
+}

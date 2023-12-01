@@ -1,0 +1,47 @@
+.counter{
+    display: flex;
+    gap: 1.7rem;
+    border: 1px solid #707070;
+    border-radius: 1.3rem;
+    height: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-number{
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 100%;
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+ }
+
+ .decrement , .increment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7d7d7d;
+    border: none;
+    background-color: transparent;
+    width: 3.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+}
+.increment{
+    border-left: 1px solid #707070;
+ }
+
+ .decrement{
+    border-right: 1px solid #707070;
+ }
+
+ .increment svg, .decrement svg{
+    width: 2rem;
+    height: 2rem;
+ }

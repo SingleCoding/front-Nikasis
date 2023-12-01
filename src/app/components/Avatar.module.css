@@ -1,0 +1,13 @@
+.avatarBox{
+    background-color: #383F43;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatarIcon{
+    width: 3.5rem;
+    height: 3.5rem;
+}

@@ -1,0 +1,38 @@
+.size-box {
+  display: flex;
+  flex-direction: column;
+  height: 7rem;
+  gap: 1rem;
+}
+
+.size-box-text {
+  font-size: 1.4rem;
+  opacity: 0.9;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.size-box-change {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1.5rem;
+}
+
+.size {
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 20%;
+  outline: 4px solid rgba(128, 128, 128, 0);
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.size.active {
+  background-color: black;
+  color: white;
+}

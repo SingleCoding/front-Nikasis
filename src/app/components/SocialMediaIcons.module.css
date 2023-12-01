@@ -1,0 +1,39 @@
+.smi {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.smi a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  color: inherit;
+  background: var(--clr-bg-light);
+  text-decoration: none;
+  line-height: 1;
+  transition-property: background-color, color, transform;
+  transition-duration: 300ms;
+}
+
+.smi a:active {
+  background: var(--clr-bg-dark);
+  color: var(--clr-fg-light);
+  transform: scale(1.2);
+}
+
+.smi a:hover {
+  background: var(--clr-bg-dark);
+  color: var(--clr-fg-light);
+}
+
+.smi.no-background a {
+  background: transparent;
+  color: var(--clr-fg-light-support);
+  width: initial;
+  height: initial;
+  padding: 0.5rem;
+}

@@ -1,0 +1,13 @@
+.btn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    border-radius: 1.92rem;
+    text-decoration: none;
+}
+
+.btn:visited{
+    color: white;
+}

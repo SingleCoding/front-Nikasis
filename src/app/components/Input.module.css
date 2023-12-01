@@ -1,0 +1,13 @@
+.input{
+    border: none;
+    border-bottom: 1px solid #373E42;
+    width: 100%;
+    padding: 0.5em;
+    outline: none;
+    text-align: center;
+}
+
+.input::selection{
+    background-color: #373E42;
+    color: white;
+}

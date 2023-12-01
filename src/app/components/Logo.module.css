@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.black-theme svg {
+  fill: #000;
+  stroke: #000;
+}
+
+.white-theme svg {
+  fill: #fff;
+  stroke: #fff;
+}

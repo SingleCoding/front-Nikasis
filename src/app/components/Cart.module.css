@@ -1,0 +1,26 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-number{
+   background-color: red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   border-radius: 100%;
+   width: 1.6rem;
+   height: 1.6rem;
+   font-size: 1rem;
+   font-weight: 700;
+   transform: translateY(10px);
+}
+
+.cart svg{
+    color: white;
+    width: 3rem;
+    height: 3rem;
+}

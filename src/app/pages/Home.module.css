@@ -1,0 +1,34 @@
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.home-products-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.home-products-button svg {
+  stroke-width: 1px;
+}
+
+.nav-icons {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  gap: 2rem;
+}
+
+.nav-icons svg {
+  width: 3rem;
+  height: 3rem;
+}

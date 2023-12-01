@@ -1,0 +1,21 @@
+.arrow-btn{
+    border-radius: 100%;
+    width: 3.4rem;
+    height: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.arrow-btn:visited{
+    color: white;
+}
+
+.arrow-btn svg{
+    width: 3rem;
+    height: 3rem;
+}
